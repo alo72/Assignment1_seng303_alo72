@@ -9,7 +9,7 @@ import org.koin.core.context.startKoin
 class MainApplication: Application() {
 
     @OptIn(FlowPreview::class)
-    override fun onCreate() {
+    override fun onCreate() {  
         super.onCreate()
 
         startKoin {
